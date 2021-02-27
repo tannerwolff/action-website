@@ -5,7 +5,7 @@ export default class App extends Component {
     return (
       <div className='app'>
         <h1>Action of Eastern Montana</h1>
-        <h2>Hi there again</h2>
+        <h2>Hi there</h2>
       </div>
     );
   }
