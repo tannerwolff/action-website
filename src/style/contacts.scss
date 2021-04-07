@@ -1,0 +1,8 @@
+.full-contacts-page-wrapper{
+    display: flex;
+    justify-content: center;
+    .each-contact h1{
+        text-shadow: 2px 1px $logored;
+    }
+    
+}

@@ -1,0 +1,22 @@
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+    .upper-footer-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .footer-phone{
+            padding-right: 10px;
+        }
+        .footer-fax{
+            padding-left: 10px;
+        }
+
+    }
+}

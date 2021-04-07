@@ -1,0 +1,46 @@
+.content-page-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    
+
+    .right-column{
+        display: flex;
+        font-size: .8rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        color: white;
+
+        .about-button-wrapper{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: 5px;
+                width: 65px;
+                font-size: .6rem;
+                color: white;
+                background-color: black;
+                border: 1px solid white;
+                padding: 10px 20px;
+                border-radius: 50px;
+                text-decoration: none;
+                font-size: .6rem;
+                color: white;
+
+                &:hover{
+                    color: black;
+                    background-color: white;
+                }
+                
+            }
+        }
+
+    }
+}
