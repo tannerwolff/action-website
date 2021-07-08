@@ -10,13 +10,15 @@ export default function(){
 
                 <Link to="/reports">Accountability Reports</Link>
 
-                <Link to="/governing">Governing Board</Link>
+                <Link to="/governing-board">Governing Board</Link>
 
-                <Link to="/resouces">Resources</Link>
+                <Link to="/resources">Resources</Link>
 
-                <Link to="/employees-resources">Employee Resources and Newsletter</Link>
+                <Link to="/employee-resources">Employee Resources and Newsletter</Link>
 
-                <Link to="/surveys">Survey</Link>
+                <Link to="/employment">Employment Opportunities</Link>
+
+                <Link to="/surveys">Surveys</Link>
 
             </div>
         </div>

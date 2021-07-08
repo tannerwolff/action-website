@@ -1,0 +1,193 @@
+.complete-homepage-wrapper{
+    text-align: center;
+    background-color: rgb(196, 191, 191);
+    padding-top: 15px;
+    
+
+
+    .montana-map-section-wrapper{
+        margin-left: 10%;
+        
+        
+        
+        img {
+        transform: scale(100%);
+        
+        }
+    }
+
+    ul > a{
+        text-decoration: none;
+        color: #336699;
+    }
+
+
+
+    .google-calendar-section {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px 50px;
+
+        iframe{
+            height: 450px;
+            width: 80vw;
+        }
+    }
+
+    .short-home-about-section{
+        .overlay-about{
+            display: flex;
+            font-size: 1.2rem;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            margin-top: 50px;
+            padding-top: 50px;
+            color: black;
+    
+            .about-text{
+                color: black;
+                background: rgba(255, 254, 254, 0.6);
+                padding: 0px 50px;
+                font-size: 1.5rem;
+                border-radius: 50px;
+            }
+    
+            .about-button-wrapper{
+                display: flex;
+                margin-bottom: 50px;
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    height:65px;
+                    width: 200px;
+                    font-size: 1.5rem;
+                    color: white;
+                    background-color: black;
+                    border: 1px solid white;
+                    margin: 10px 20px;
+                    border-radius: 50px;
+                    text-decoration: none;
+                    color: white;
+    
+                    &:hover{
+                        color: black;
+                        background-color: white;
+                    }
+                    
+                }
+            }
+    
+        }
+
+        .home-about-background{
+            width: 100%;
+            height: auto;
+        }
+        
+    }
+
+    .homepage-department-section{
+        color: black;
+        text-align: center;
+
+        .homepage-department-buttons{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .department-button{
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    height:100px;
+                    width: 300px;
+                    font-size: 1.2rem;
+                    color: white;
+                    background-color: black;
+                    border: 1px solid white;
+                    margin: 10px 20px;
+                    border-radius: 50px;
+                    text-decoration: none;
+                    color: white;
+    
+                    &:hover{
+                        color: black;
+                        background-color: white;
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .donor-thank-yous{
+        margin-top: 150px;
+        text-align: center;
+        .all-thank-yous{
+            display: flex;
+            justify-content: space-around;
+        }
+        .individual-thank-you{
+            display: flex;
+            height: 100px;
+            img {
+                height: 75px;
+            }
+
+            h3{
+                margin-left: 10px;
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 1150px){
+    .complete-homepage-wrapper .montana-map-section-wrapper{
+        transform: scale(90%);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 1050px){
+    .complete-homepage-wrapper .montana-map-section-wrapper{
+        transform: scale(80%);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 900px){
+    .complete-homepage-wrapper .montana-map-section-wrapper{
+        transform: scale(70%);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 815px){
+    .complete-homepage-wrapper .montana-map-section-wrapper{
+        transform: scale(60%);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 715px){
+    .complete-homepage-wrapper .montana-map-section-wrapper{
+        transform: scale(50%);
+        transform-origin: left;
+    }
+}
+@media (max-width: 570px){
+    .complete-homepage-wrapper .montana-map-section-wrapper{
+        transform: scale(40%);
+        transform-origin: left ;
+    }
+}

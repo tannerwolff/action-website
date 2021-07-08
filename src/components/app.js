@@ -7,7 +7,7 @@ import {
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapMarkerAlt, faTrash, faPhoneAlt, faFax } from "@fortawesome/free-solid-svg-icons";
+import { faMapMarkerAlt, faTrash, faPhoneAlt, faFax, faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 
 import NavigationComponent from "./navigation/navigation-container";
 import Home from "./pages/home";
@@ -20,10 +20,39 @@ import missionAbout from "./pages/mission-about";
 import Services from "./pages/services";
 import Contacts from "./pages/contacts";
 import Reports from "./pages/reports";
+import Employment from "./pages/employment";
+import GoverningBoard from "./pages/governing-board";
+import BoardAgenda from "./pages/board-agenda";
+import BoardRoles from "./pages/board-roles";
+import BoardBylaws from "./pages/board-bylaws";
+import Resources from "./pages/resources";
+import EmployeeResources from "./pages/employee-resources";
+import Surveys from "./pages/surveys";
+import AreaOnAging from "./pages/area-i-agency";
+import EmploymentTraining from "./pages/employment-training";
+import EnergyPrograms from "./pages/energy-programs";
+import HeadStart from "./pages/head-start";
+import HousingProgram from "./pages/housing-program";
+import seniorCompanions from './pages/senior-companions';
+import Employee from './pages/employee-only';
+import Login from './pages/login';
+import NoMatch from './pages/no-match';
 
-library.add(faMapMarkerAlt, faTrash, faPhoneAlt, faFax)
+
+
+
+library.add(faMapMarkerAlt, faTrash, faPhoneAlt, faFax, faSignInAlt)
 
 export default class App extends Component {
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+      status: "NOT_LOGGED_IN"
+    }
+  }
+  
   render() {
     return (
       <div className='app'>
@@ -37,6 +66,7 @@ export default class App extends Component {
 
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
+            <Route path="/employee-only" component={Employee} />
             <Route path="/quick-links" component={QuickLinks} />
             <Route path="/applications" component={Applications} />
             <Route path="/programs" component={Programs} />
@@ -45,6 +75,23 @@ export default class App extends Component {
             <Route path="/services" component={Services} />
             <Route path="/contacts" component={Contacts} />
             <Route path="/reports" component={Reports} />
+            <Route path="/employment" component={Employment} />
+            <Route path="/governing-board" component={GoverningBoard} />
+            <Route path="/board-agenda" component={BoardAgenda} />
+            <Route path="/board-roles" component={BoardRoles} />
+            <Route path="/board-bylaws" component={BoardBylaws} />
+            <Route path="/resources" component={Resources} />
+            <Route path="/employee-resources" component={EmployeeResources} />
+            <Route path="/surveys" component={Surveys} />
+            <Route path="/agency-on-aging" component={AreaOnAging} />
+            <Route path="/employment-and-training" component={EmploymentTraining} />
+            <Route path="/energy-programs" component={EnergyPrograms} />
+            <Route path="/head-start" component={HeadStart} />
+            <Route path="/housing-programs" component={HousingProgram} />
+            <Route path="/senior-companions" component={seniorCompanions} />
+            <Route path="/login" component={Login} />
+            <Route component={NoMatch} />
+
 
           </Switch>
           </div>
@@ -62,7 +109,7 @@ export default class App extends Component {
               </div>
 
               <div className="copyright">
-                ©2021 by Action for Eastern Montana | Independent Contractor: Tanner Wolff
+                ©2021 by Action for Eastern Montana | Contractor: Tanner Wolff
               </div>
             </div>
 

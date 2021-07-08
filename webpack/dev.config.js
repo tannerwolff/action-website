@@ -53,7 +53,9 @@ module.exports = webpackMerge(webpackCommon, {
           }
         ]
       }
+      
     ]
+    
 
   },
 
@@ -90,5 +92,5 @@ module.exports = webpackMerge(webpackCommon, {
     },
     proxy: proxyRules
   }
-
+  
 });

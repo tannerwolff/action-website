@@ -1,0 +1,63 @@
+.governing-board-full-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10%;
+
+    .governing-header .board-minutes{
+        font-size: .8rem;
+    }
+
+    .governing-board-buttons{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            font-size: .9rem;
+            color: white;
+            background-color: black;
+            border: 1px solid white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+
+            &:hover{
+                color: black;
+                background-color: gray;
+            }
+            
+        }
+    }
+
+    .category-bracket{
+        margin-left: 5%;
+        
+        .category{
+            text-decoration: underline;
+        }
+    }
+
+    .governing-body .individual-governor{
+        margin: 20px;
+    }
+
+    .governing-line{
+        background-color: lightgray;
+        height: 3px;
+        border-radius: 10px;
+        width: 75%;
+    }
+
+    .years-governing h1{
+        text-decoration: underline 3px black;
+    }
+
+}

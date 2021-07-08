@@ -1,0 +1,26 @@
+.board-agenda-full-wrapper{
+    .full-agenda-header{
+        font-size: 1.3rem;
+        text-align: center;
+
+        .red{
+            color: red;
+        }
+    }
+
+    .board-agenda-body{
+        font-size: 1.2rem;
+
+        .highlighted{
+            background-color: yellow;
+        }
+    }
+
+    
+}
+
+.governing-header{
+    .agenda-pdf a{
+        color: black;
+    }
+}

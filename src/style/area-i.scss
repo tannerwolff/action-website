@@ -1,0 +1,64 @@
+.governing-board-full-wrapper{
+    .full-employee-resource-page{
+        
+    }
+}
+
+.complete-aging-wrapper{
+    
+
+    .montana-map-section-wrapper{
+        transform: scale(100%);
+        transform-origin: left;
+        width: 100%;
+
+    }
+
+    ul > a{
+        text-decoration: none;
+        color: #336699;
+    }
+
+}
+@media (max-width: 1150px){
+    .complete-aging-wrapper .montana-map-section-wrapper{
+        transform: scale(90%);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 1050px){
+    .complete-aging-wrapper .montana-map-section-wrapper{
+        transform: scale(80%);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 900px){
+    .complete-aging-wrapper .montana-map-section-wrapper{
+        transform: scale(70%);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 815px){
+    .complete-aging-wrapper .montana-map-section-wrapper{
+        transform: scale(60%);
+        transform-origin: left;
+    }
+}
+
+@media (max-width: 715px){
+    .complete-aging-wrapper .montana-map-section-wrapper{
+        transform: scale(50%);
+        transform-origin: left;
+    }
+}
+@media (max-width: 570px){
+    .complete-aging-wrapper .montana-map-section-wrapper{
+        transform: scale(40%);
+        transform-origin: left ;
+    }
+}
+
+

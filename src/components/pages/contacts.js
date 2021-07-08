@@ -2,7 +2,9 @@ import React from 'react';
 
 export default function(){
     return(
-    <div className="full-contacts-page-wrapper">
+    <div className="governing-board-full-wrapper">
+        <h1>Contacts</h1>
+        <div className="governing-line"></div>
         <div className="contacts-page-inner">
             <div className="each-contact">
                 <h1>Glendive</h1>

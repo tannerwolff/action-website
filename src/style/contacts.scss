@@ -1,8 +1,7 @@
-.full-contacts-page-wrapper{
-    display: flex;
-    justify-content: center;
-    .each-contact h1{
-        text-shadow: 2px 1px $logored;
-    }
-    
+.contacts-page-inner{
+    margin-right: 20%;
+    font-size: 1.2rem;
+}
+.each-contact h1{
+    text-shadow: 2px 1px $logored;
 }

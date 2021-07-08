@@ -1,37 +1,50 @@
 .content-page-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     background-color: black;
+
+    h1{
+        color: white;
+    }
     
 
-    .right-column{
+    .overlay-about{
         display: flex;
-        font-size: .8rem;
+        font-size: 1.2rem;
         justify-content: center;
         align-items: center;
+        text-align: center;
         flex-direction: column;
-        padding: 50px;
-        color: white;
+        padding: 100px;
+        color: black;
+
+        .about-text{
+            color: black;
+            background: rgba(255, 254, 254, 0.5);
+            padding: 20px;
+            font-size: 1.8rem;
+            border-radius: 50px;
+        }
 
         .about-button-wrapper{
             width: 80%;
             display: flex;
             justify-content: space-between;
+            padding-top: 50px;
             a{
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                height: 5px;
-                width: 65px;
-                font-size: .6rem;
+                height: 35px;
+                width: 125px;
+                font-size: 1.2rem;
                 color: white;
                 background-color: black;
                 border: 1px solid white;
                 padding: 10px 20px;
                 border-radius: 50px;
                 text-decoration: none;
-                font-size: .6rem;
                 color: white;
 
                 &:hover{
